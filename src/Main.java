@@ -34,7 +34,6 @@ public class Main {
             }
         }
         System.out.println();
-        System.out.println("The maximum value of the array was " + valMax + " and it appeared " + maxCount + " times");
-        System.out.println("The minimum value of the array was " + valMin + " and it appeared " + minCount + " times");
+        System.out.println("Average of dataPoints is: " + getAverage.getAverage(dataPoints) );
     }
 }
